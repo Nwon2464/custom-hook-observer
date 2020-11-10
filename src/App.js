@@ -34,10 +34,10 @@ const App = () => {
         <FaArrowDown color="blue" size="10rem" />
       </MainH1>
       <MainDiv className="App" visible={visible} ref={setRef}>
-        <h1>This will appear from opactiy 0 to 1 with animation</h1>
-        <h1>This will appear from opactiy 0 to 1 with animation</h1>
-        <h1>This will appear from opactiy 0 to 1 with animation</h1>
-        <h1>This will appear from opactiy 0 to 1 with animation</h1>
+        <h1>This will appear from opacity 0 to 1 with animation</h1>
+        <h1>This will appear from opacity 0 to 1 with animation</h1>
+        <h1>This will appear from opacity 0 to 1 with animation</h1>
+        <h1>This will appear from opacity 0 to 1 with animation</h1>
       </MainDiv>
       <MainH1>
         <div>Scroll up</div>
