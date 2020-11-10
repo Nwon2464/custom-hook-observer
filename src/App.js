@@ -1,7 +1,10 @@
-import React, { useState, useRef, useEffect } from "react";
+import React from "react";
 import styled from "styled-components";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
+//react-icons props  = color, size
+//you can use it for global css using contextAPI
 import { useIntersect } from "./useIntersect";
+
 //main wrapper that decides the visibility & opacity of the element
 //vh is useful for the element that you want to animate.
 const MainDiv = styled.div`
